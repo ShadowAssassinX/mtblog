@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JiuHaohao&#39;s Blog</title>
+  
+  <subtitle>Simple Love</subtitle>
+  <link href="https://shadowassassinx.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://shadowassassinx.github.io/"/>
+  <updated>2022-07-01T01:47:33.025Z</updated>
+  <id>https://shadowassassinx.github.io/</id>
+  
+  <author>
+    <name>JiuHaohao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你好世界</title>
+    <link href="https://shadowassassinx.github.io/posts/b00d.html"/>
+    <id>https://shadowassassinx.github.io/posts/b00d.html</id>
+    <published>2022-06-30T11:02:11.231Z</published>
+    <updated>2022-07-01T01:47:33.025Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="https://shadowassassinx.github.io/categories/Markdown/"/>
+    
+    
+    <category term="md" scheme="https://shadowassassinx.github.io/tags/md/"/>
+    
+    <category term="日常" scheme="https://shadowassassinx.github.io/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+</feed>
