@@ -6,7 +6,7 @@
   <link href="https://shadowassassinx.github.io/atom.xml" rel="self"/>
   
   <link href="https://shadowassassinx.github.io/"/>
-  <updated>2022-07-01T01:47:33.025Z</updated>
+  <updated>2022-07-02T11:07:57.493Z</updated>
   <id>https://shadowassassinx.github.io/</id>
   
   <author>
@@ -20,26 +20,25 @@
     <title>你好世界</title>
     <link href="https://shadowassassinx.github.io/posts/b00d.html"/>
     <id>https://shadowassassinx.github.io/posts/b00d.html</id>
-    <published>2022-06-30T11:02:11.231Z</published>
-    <updated>2022-07-01T01:47:33.025Z</updated>
+    <published>2022-07-02T10:23:25.000Z</published>
+    <updated>2022-07-02T11:07:57.493Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;第一篇博文&quot;&gt;&lt;a href=&quot;#第一篇博文&quot; class=&quot;headerlink&quot; title=&quot;第一篇博文&quot;&gt;&lt;/a&gt;第一篇博文&lt;/h1&gt;&lt;p&gt;本文主要介绍博文的基本写作方法，也就是markdown的基本语法&lt;/p&gt;
+&lt;h2</summary>
         
       
     
     
     
-    <category term="Markdown" scheme="https://shadowassassinx.github.io/categories/Markdown/"/>
+    <category term="markdown" scheme="https://shadowassassinx.github.io/categories/markdown/"/>
     
     
-    <category term="md" scheme="https://shadowassassinx.github.io/tags/md/"/>
-    
-    <category term="日常" scheme="https://shadowassassinx.github.io/tags/%E6%97%A5%E5%B8%B8/"/>
+    <category term="markdown" scheme="https://shadowassassinx.github.io/tags/markdown/"/>
     
   </entry>
   
