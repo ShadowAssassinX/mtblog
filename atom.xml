@@ -6,7 +6,7 @@
   <link href="https://shadowassassinx.github.io/atom.xml" rel="self"/>
   
   <link href="https://shadowassassinx.github.io/"/>
-  <updated>2022-07-02T13:11:32.479Z</updated>
+  <updated>2022-07-02T15:30:28.507Z</updated>
   <id>https://shadowassassinx.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>diary1</title>
+    <link href="https://shadowassassinx.github.io/posts/8e09.html"/>
+    <id>https://shadowassassinx.github.io/posts/8e09.html</id>
+    <published>2022-07-02T13:24:31.000Z</published>
+    <updated>2022-07-02T15:30:28.507Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt; Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="日记" scheme="https://shadowassassinx.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://shadowassassinx.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>你好世界</title>
     <link href="https://shadowassassinx.github.io/posts/b00d.html"/>
     <id>https://shadowassassinx.github.io/posts/b00d.html</id>
     <published>2022-07-02T10:23:25.000Z</published>
-    <updated>2022-07-02T13:11:32.479Z</updated>
+    <updated>2022-07-02T14:04:13.916Z</updated>
     
     
       

@@ -601,6 +601,15 @@
                 </a>
                 
                 
+                <a href="/categories/%E6%97%A5%E8%AE%B0/" title="日记: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">日记
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
             </div>
         </div>
     </div>
@@ -643,7 +652,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"markdown","max":2}],
+            indicator: [{"name":"markdown","max":2},{"name":"日记","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -654,7 +663,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1],
+                    value : [1,1],
                     name : '文章分类数量'
                 }
             ]
@@ -725,7 +734,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,1],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -767,7 +776,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"markdown","value":1}],
+                data: [{"name":"markdown","value":1},{"name":"日记","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -791,7 +800,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["markdown"]
+                data: ["markdown","日记"]
             }
         ],
         yAxis: [
@@ -804,7 +813,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1],
+                data: [1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -853,6 +862,15 @@
                     </span>
                 </a>
                 
+                
+                <a href="/tags/%E6%97%A5%E8%AE%B0/" title="日记: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="日记" style="background-color: #F5EEF8;">日记
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -877,7 +895,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"markdown","weight":1,"link":"/tags/markdown/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"markdown","weight":1,"link":"/tags/markdown/"},{"text":"日记","weight":1,"link":"/tags/日记/"}], {
         autoResize: true
     });
 </script>
@@ -956,7 +974,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">889</span>&nbsp;字
+                class="white-color">2.5k</span>&nbsp;字
             
             
             
