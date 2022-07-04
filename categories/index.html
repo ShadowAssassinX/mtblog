@@ -600,6 +600,15 @@
                 </a>
                 
                 
+                <a href="/categories/%E6%91%98%E6%8A%84/" title="摘抄: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">摘抄
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
             </div>
         </div>
     </div>
@@ -642,7 +651,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"日记","max":2},{"name":"随笔","max":2},{"name":"Markdown","max":2}],
+            indicator: [{"name":"日记","max":2},{"name":"随笔","max":2},{"name":"Markdown","max":2},{"name":"摘抄","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -653,7 +662,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,1,1],
+                    value : [1,1,1,1],
                     name : '文章分类数量'
                 }
             ]
@@ -766,7 +775,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"日记","value":1},{"name":"随笔","value":1},{"name":"Markdown","value":1}],
+                data: [{"name":"日记","value":1},{"name":"随笔","value":1},{"name":"Markdown","value":1},{"name":"摘抄","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -790,7 +799,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["日记","随笔","Markdown"]
+                data: ["日记","随笔","Markdown","摘抄"]
             }
         ],
         yAxis: [
@@ -803,7 +812,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1,1],
+                data: [1,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -870,6 +879,15 @@
                     </span>
                 </a>
                 
+                
+                <a href="/tags/%E6%91%98%E6%8A%84/" title="摘抄: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="摘抄" style="background-color: #E8F8F5;">摘抄
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -894,7 +912,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"日记","weight":1,"link":"/tags/日记/"},{"text":"随笔","weight":1,"link":"/tags/随笔/"},{"text":"Markdown","weight":1,"link":"/tags/Markdown/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"日记","weight":1,"link":"/tags/日记/"},{"text":"随笔","weight":1,"link":"/tags/随笔/"},{"text":"Markdown","weight":1,"link":"/tags/Markdown/"},{"text":"摘抄","weight":1,"link":"/tags/摘抄/"}], {
         autoResize: true
     });
 </script>
@@ -973,7 +991,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">3.8k</span>&nbsp;字
+                class="white-color">4.4k</span>&nbsp;字
             
             
             
