@@ -6,7 +6,7 @@
   <link href="https://shadowassassinx.github.io/atom.xml" rel="self"/>
   
   <link href="https://shadowassassinx.github.io/"/>
-  <updated>2022-07-04T02:53:41.909Z</updated>
+  <updated>2022-07-04T08:54:39.213Z</updated>
   <id>https://shadowassassinx.github.io/</id>
   
   <author>
@@ -17,12 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>diary3</title>
+    <link href="https://shadowassassinx.github.io/posts/4f88.html"/>
+    <id>https://shadowassassinx.github.io/posts/4f88.html</id>
+    <published>2022-07-04T06:06:07.000Z</published>
+    <updated>2022-07-04T08:54:39.213Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>夏日の雨</title>
     <link href="https://shadowassassinx.github.io/posts/129c.html"/>
     <id>https://shadowassassinx.github.io/posts/129c.html</id>
     <published>2022-07-02T23:23:20.000Z</published>
-    <updated>2022-07-04T02:53:41.909Z</updated>
+    <updated>2022-07-03T03:54:51.814Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;昨天下了整夜的雨，睡到自然醒。&lt;/p&gt;
+&lt;p&gt;梦里的回忆，模糊到那个不知在做什么的某一个夏天，&lt;br&gt;像是还在高中的校园里，全神贯注的刷着理综卷子，窗外滚滚的雷声和暴雨;&lt;br&gt;&lt;img</summary>
+        
+      
     
     
     
@@ -38,8 +60,16 @@
     <link href="https://shadowassassinx.github.io/posts/8e09.html"/>
     <id>https://shadowassassinx.github.io/posts/8e09.html</id>
     <published>2022-07-02T13:24:31.000Z</published>
-    <updated>2022-07-04T02:53:44.626Z</updated>
+    <updated>2022-07-04T08:56:14.201Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt; Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
     
     
     
@@ -55,8 +85,17 @@
     <link href="https://shadowassassinx.github.io/posts/b00d.html"/>
     <id>https://shadowassassinx.github.io/posts/b00d.html</id>
     <published>2022-07-02T10:23:25.000Z</published>
-    <updated>2022-07-04T02:53:54.137Z</updated>
+    <updated>2022-07-03T04:18:25.114Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第一篇博文&quot;&gt;&lt;a href=&quot;#第一篇博文&quot; class=&quot;headerlink&quot; title=&quot;第一篇博文&quot;&gt;&lt;/a&gt;第一篇博文&lt;/h1&gt;&lt;p&gt;本文主要介绍博文的基本写作方法，也就是markdown的基本语法&lt;/p&gt;
+&lt;h2</summary>
+        
+      
     
     
     
