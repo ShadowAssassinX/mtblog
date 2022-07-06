@@ -609,6 +609,24 @@
                 </a>
                 
                 
+                <a href="/categories/%E5%81%A5%E5%BA%B7/" title="健康: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #FEF9E7;">健康
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E6%9D%82%E6%96%87/" title="计算机科普杂文: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F8F9F9;">计算机科普杂文
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
             </div>
         </div>
     </div>
@@ -651,7 +669,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"日记","max":2},{"name":"随笔","max":2},{"name":"Markdown","max":2},{"name":"哲思","max":2}],
+            indicator: [{"name":"日记","max":2},{"name":"随笔","max":2},{"name":"Markdown","max":2},{"name":"哲思","max":2},{"name":"健康","max":2},{"name":"计算机科普杂文","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -662,7 +680,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,1,1,1],
+                    value : [1,1,1,1,1,1],
                     name : '文章分类数量'
                 }
             ]
@@ -733,7 +751,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,5],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,7],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -775,7 +793,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"日记","value":1},{"name":"随笔","value":1},{"name":"Markdown","value":1},{"name":"哲思","value":1}],
+                data: [{"name":"日记","value":1},{"name":"随笔","value":1},{"name":"Markdown","value":1},{"name":"哲思","value":1},{"name":"健康","value":1},{"name":"计算机科普杂文","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -799,7 +817,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["日记","随笔","Markdown","哲思","午餐时间"]
+                data: ["日记","随笔","Markdown","哲思","午餐时间","健康","计算机科普杂文"]
             }
         ],
         yAxis: [
@@ -812,7 +830,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1,1,1,1],
+                data: [1,1,1,1,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -897,6 +915,24 @@
                     </span>
                 </a>
                 
+                
+                <a href="/tags/%E5%81%A5%E5%BA%B7/" title="健康: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="健康" style="background-color: #F8F9F9;">健康
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E6%9D%82%E6%96%87/" title="计算机科普杂文: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="计算机科普杂文" style="background-color: #82E0AA;">计算机科普杂文
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -921,7 +957,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"日记","weight":1,"link":"/tags/日记/"},{"text":"随笔","weight":1,"link":"/tags/随笔/"},{"text":"Markdown","weight":1,"link":"/tags/Markdown/"},{"text":"哲思","weight":1,"link":"/tags/哲思/"},{"text":"午餐时间","weight":1,"link":"/tags/午餐时间/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"日记","weight":1,"link":"/tags/日记/"},{"text":"随笔","weight":1,"link":"/tags/随笔/"},{"text":"Markdown","weight":1,"link":"/tags/Markdown/"},{"text":"哲思","weight":1,"link":"/tags/哲思/"},{"text":"午餐时间","weight":1,"link":"/tags/午餐时间/"},{"text":"健康","weight":1,"link":"/tags/健康/"},{"text":"计算机科普杂文","weight":1,"link":"/tags/计算机科普杂文/"}], {
         autoResize: true
     });
 </script>
@@ -1000,7 +1036,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">3.6k</span>&nbsp;字
+                class="white-color">4.9k</span>&nbsp;字
             
             
             
