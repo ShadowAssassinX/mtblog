@@ -674,7 +674,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-07-06
+                    2022-07-07
                 </div>
                 
 
@@ -714,7 +714,7 @@
 <h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ol>
 <li>文章封面也可以用外链（推荐用图床），或者自定义文件内的图片，没有的话就是默认特征相册里的图片<br>封面用外链的话本地测试的时候加载很慢<br>不写的话就是默认本地特征相册里的,本文用的就是外链</li>
 </ol>
-<pre class=" language-Markdown"><code class="language-Markdown">img: 'https://w.wallhaven.cc/full/k7/wallhaven-k7q9m7.png'
+<pre class=" language-markdown"><code class="language-markdown">img: 'https://w.wallhaven.cc/full/k7/wallhaven-k7q9m7.png'
 </code></pre>
 <h3 id="其他的"><a href="#其他的" class="headerlink" title="其他的"></a>其他的</h3><p>还有top,toc,password,cover,coverimg,reprintPolicy,mathjax,详细参考下面表格</p>
 <h2 id="各级标题"><a href="#各级标题" class="headerlink" title="各级标题"></a>各级标题</h2><pre class=" language-markdown"><code class="language-markdown"><span class="token code keyword">    # 一级标题</span>
@@ -741,8 +741,8 @@
      代码内容
     ``` 
 </code></pre>
-<p>如果里面换成拼音也是一样的bug,所以就是不标明语言标签的话，就会出现这种问题<br>（此外代码块的语言标签中，markdown可以缩写为md;不对，缩写后没有高亮了,全是白色的，代表不认识这种语言）<br>2.代码块嵌套（就是代码块套代码块）的时候要注意层级关系，可以用tab键调整一下结构，否则可能会错乱;</p>
-<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><pre class=" language-markdown"><code class="language-markdown">   ```css
+<p>如果里面换成拼音也是一样的bug,所以就是不标明语言标签的话，就会出现这种问题<br>（此外代码块的语言标签中，markdown可以缩写为md;不对，缩写后没有高亮了,全是白色的，代表不认识这种语言，甚至必须是markdown，m不能大写，否则也没有高亮;尽管在md文件里是高亮的，但是上传到网页后是白色的，所以这个高亮很可能是md文件自带的，于是你以为md也可以）<br>2.代码块嵌套（就是代码块套代码块）的时候要注意层级关系，可以用tab键调整一下结构，否则可能会错乱;</p>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><pre class=" language-markdown"><code class="language-markdown"><span class="token code keyword">    ```css</span>
 <span class="token code keyword">    .gitment-container .gitment-header-like-btn {</span>
 <span class="token code keyword">    color: #ab47bc;</span>
 <span class="token code keyword">    }  </span>
@@ -766,6 +766,9 @@
 <p>结果这个图片如果放在这就是一直加载的状态</p>
 <img src="/medias/loading.gif" data-original="/posts/b00d/b00d/1.jpg" class="" title="晚霞与少年"> 
 <p>好吧之前那个博客是这种问题，现在看起来第一种反而可以正常预览</p>
+<pre class=" language-markdown"><code class="language-markdown"><span class="token url">![晚霞与少年](./hello-world/1.jpg)</span>
+</code></pre>
+<p><img src="/medias/loading.gif" data-original="/posts/b00d/1.jpg" alt="晚霞与少年"></p>
 <p>查了一些资料发现这个官方给的图片插入的插件hexo-asset-image有大问题，唉，我还满怀欣喜的以为一时半会儿不会有bug了，<br>我打算沿着这个博客，不只是表层的这些应用的代码，包括hexo的源码，都给看一看，可不可以完全脱离框架，直接从0自己写一个博客框架<br>之前那个博主建议说用图床，确实hexo这个设计，搞得内部的加载还没外链的快呢<br>我不管了图片先用图床和外链了，博客已经搞得我头很大了</p>
 <h2 id="文字或图片链接"><a href="#文字或图片链接" class="headerlink" title="文字或图片链接"></a>文字或图片链接</h2><h3 id="文字"><a href="#文字" class="headerlink" title="文字"></a>文字</h3><pre class=" language-markdown"><code class="language-markdown"><span class="token url">[我的网易云链接](https://music.163.com/#/user/home?id=582357536)</span>
 </code></pre>
@@ -773,7 +776,7 @@
 <h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><pre class=" language-markdown"><code class="language-markdown"><span class="token url">[![水下粉发少女](https://xinzhuobu.com/wp-content/uploads/2022/04/20220404001.jpg)</span>](https://xinzhuobu.com/wp-content/uploads/2022/04/20220404001.jpg)
 </code></pre>
 <p><a target="_blank" rel="noopener" href="https://xinzhuobu.com/wp-content/uploads/2022/04/20220404001.jpg"><img src="/medias/loading.gif" data-original="https://xinzhuobu.com/wp-content/uploads/2022/04/20220404001.jpg" alt="水下粉发少女"></a><br>网上也说在md文件中是可以这样复合的，但是我这个点击就放大到相册了，我猜应该是冲突了，暂时没有解决</p>
-<h2 id="插入视频音频"><a href="#插入视频音频" class="headerlink" title="插入视频音频"></a>插入视频音频</h2><h2 id="md文件里的注释"><a href="#md文件里的注释" class="headerlink" title="md文件里的注释"></a>md文件里的注释</h2><pre class=" language-markdowm"><code class="language-markdowm"><!--  -->
+<h2 id="插入视频音频"><a href="#插入视频音频" class="headerlink" title="插入视频音频"></a>插入视频音频</h2><h2 id="md文件里的注释"><a href="#md文件里的注释" class="headerlink" title="md文件里的注释"></a>md文件里的注释</h2><pre class=" language-md"><code class="language-md"><!--  -->
 </code></pre>
 <p>则括号里的文字不会显示在页面上</p>
 
@@ -1323,7 +1326,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">5k</span>&nbsp;字
+                class="white-color">5.1k</span>&nbsp;字
             
             
             
