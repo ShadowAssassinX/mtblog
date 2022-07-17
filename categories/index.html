@@ -636,11 +636,11 @@
                 </a>
                 
                 
-                <a href="/categories/%E5%B0%8F%E8%AF%B4/" title="小说: 1">
+                <a href="/categories/%E5%B0%8F%E8%AF%B4/" title="小说: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #D7BDE2;">小说
-                        <span class="tag-length">1</span>
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -698,7 +698,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,2,1,1,1,2,1,1],
+                    value : [1,2,1,1,1,2,1,2],
                     name : '文章分类数量'
                 }
             ]
@@ -769,7 +769,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,10],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,11],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -811,7 +811,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"日记","value":1},{"name":"随笔","value":2},{"name":"Markdown","value":1},{"name":"哲思","value":1},{"name":"健康","value":1},{"name":"计算机科普杂文","value":2},{"name":"美食分享","value":1},{"name":"小说","value":1}],
+                data: [{"name":"日记","value":1},{"name":"随笔","value":2},{"name":"Markdown","value":1},{"name":"哲思","value":1},{"name":"健康","value":1},{"name":"计算机科普杂文","value":2},{"name":"美食分享","value":1},{"name":"小说","value":2}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -835,7 +835,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["随笔","日记","Markdown","哲思","午餐时间","健康","计算机科普杂文","物联网","元宇宙","VR"]
+                data: ["随笔","小说人设A","日记","Markdown","哲思","午餐时间","健康","计算机科普杂文","物联网","元宇宙"]
             }
         ],
         yAxis: [
@@ -848,7 +848,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [2,1,1,1,1,1,1,1,1,1],
+                data: [2,2,1,1,1,1,1,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -979,20 +979,11 @@
                 </a>
                 
                 
-                <a href="/tags/%E5%B0%8F%E8%AF%B4%E4%BA%BA%E8%AE%BE/" title="小说人设: 1">
+                <a href="/tags/%E5%B0%8F%E8%AF%B4%E4%BA%BA%E8%AE%BEA/" title="小说人设A: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="小说人设" style="background-color: #F8C471;">小说人设
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/A/" title="A: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="A" style="background-color: #F9E79F;">A
-                        <span class="tag-length">1</span>
+                            data-tagname="小说人设A" style="background-color: #F8C471;">小说人设A
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -1020,7 +1011,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"日记","weight":1,"link":"/tags/日记/"},{"text":"随笔","weight":2,"link":"/tags/随笔/"},{"text":"Markdown","weight":1,"link":"/tags/Markdown/"},{"text":"哲思","weight":1,"link":"/tags/哲思/"},{"text":"午餐时间","weight":1,"link":"/tags/午餐时间/"},{"text":"健康","weight":1,"link":"/tags/健康/"},{"text":"计算机科普杂文","weight":1,"link":"/tags/计算机科普杂文/"},{"text":"物联网","weight":1,"link":"/tags/物联网/"},{"text":"元宇宙","weight":1,"link":"/tags/元宇宙/"},{"text":"VR","weight":1,"link":"/tags/VR/"},{"text":"小说人设","weight":1,"link":"/tags/小说人设/"},{"text":"A","weight":1,"link":"/tags/A/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"日记","weight":1,"link":"/tags/日记/"},{"text":"随笔","weight":2,"link":"/tags/随笔/"},{"text":"Markdown","weight":1,"link":"/tags/Markdown/"},{"text":"哲思","weight":1,"link":"/tags/哲思/"},{"text":"午餐时间","weight":1,"link":"/tags/午餐时间/"},{"text":"健康","weight":1,"link":"/tags/健康/"},{"text":"计算机科普杂文","weight":1,"link":"/tags/计算机科普杂文/"},{"text":"物联网","weight":1,"link":"/tags/物联网/"},{"text":"元宇宙","weight":1,"link":"/tags/元宇宙/"},{"text":"VR","weight":1,"link":"/tags/VR/"},{"text":"小说人设A","weight":2,"link":"/tags/小说人设A/"}], {
         autoResize: true
     });
 </script>
@@ -1099,7 +1090,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">7.3k</span>&nbsp;字
+                class="white-color">7.8k</span>&nbsp;字
             
             
             

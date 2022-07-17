@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="HTML,CSS,JavaScript,JQuery,React,Vue.js等">
+    <meta name="keywords" content="标签: 小说人设A, HTML,CSS,JavaScript,JQuery,React,Vue.js等">
     <meta name="description" content="个人博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JiuHaohao&#39;s Blog</title>
+    <title>标签: 小说人设A | JiuHaohao&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -517,56 +517,9 @@
 
 </header>
 
-    
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color: rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -603,186 +556,142 @@
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#articles" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
-                </a>
-
-                
-                    <a href="https://github.com/ShadowAssassinX/ShadowAssassinX.github.io" class="waves-effect waves-light btn" target="_blank">
-                        <i class="fab fa-github-alt"></i>Github
-                    </a>
-                
-            </div>
-            <div class="cover-social-link">
-    <a href="https://github.com/ShadowAssassinX" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:1007172858@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1007172858" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1007172858" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
-</div>
-        </div>
     </div>
-
-    
 </div>
-
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
-
-        function restartPlay() {
-            
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
-        };
-
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
-    });
-</script>
-
-
 
 <main class="content">
 
     
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;没想好题目
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            我想还是阳光一点吧，这种情绪才应该是主旋律！才会觉得浑身都充满力量，每一分每一秒都充满期待，眼里永远只有星辰大海
+
+<div id="tags" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+            </div>
+            <div class="tag-chips">
+                
+                
+                <a href="/tags/%E6%97%A5%E8%AE%B0/" title="日记: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="日记" style="background-color: #F9EBEA;">日记
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E9%9A%8F%E7%AC%94/" title="随笔: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="随笔" style="background-color: #F5EEF8;">随笔
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Markdown/" title="Markdown: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Markdown" style="background-color: #D5F5E3;">Markdown
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%93%B2%E6%80%9D/" title="哲思: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="哲思" style="background-color: #E8F8F5;">哲思
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%8D%88%E9%A4%90%E6%97%B6%E9%97%B4/" title="午餐时间: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="午餐时间" style="background-color: #FEF9E7;">午餐时间
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%81%A5%E5%BA%B7/" title="健康: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="健康" style="background-color: #F8F9F9;">健康
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E6%9D%82%E6%96%87/" title="计算机科普杂文: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="计算机科普杂文" style="background-color: #82E0AA;">计算机科普杂文
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E7%89%A9%E8%81%94%E7%BD%91/" title="物联网: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="物联网" style="background-color: #D7BDE2;">物联网
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/" title="元宇宙: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="元宇宙" style="background-color: #A3E4D7;">元宇宙
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/VR/" title="VR: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="VR" style="background-color: #85C1E9;">VR
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%B0%8F%E8%AF%B4%E4%BA%BA%E8%AE%BEA/" title="小说人设A: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="小说人设A" style="background-color: #F8C471;">小说人设A
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+            </div>
         </div>
     </div>
 </div>
 
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
     
 
-    
-
-    <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
-        <div class="row article-row">
+        <div class="row tags-posts">
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="小说人设A" data-aos="fade-up">
                 <div class="card">
                     <a href="/posts/4f88.html">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/medias/loading.gif" data-original="https://xinzhuobu.com/wp-content/uploads/2022/03/20220326001.jpg" class="responsive-img" alt="diary3">
                             
                             <span class="card-title">diary3</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-山海欲20岁从来没有像这段时间一样心头的欲望犹如翻江倒海一般沸腾着我根本无法管控没有任何道德和信仰可以约束它在心头放肆的灼烧着仿佛想要马上烧干我的每一寸热血我露出了獠牙面容狰狞像极了一头失控的野兽
-然而我越是渴望越是迫切我就越是做不好任何
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2022-07-16
@@ -792,94 +701,28 @@
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
                                 <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
-                                    小说
+                                小说
                                 </a>
                                 
                                 
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%B0%8F%E8%AF%B4%E4%BA%BA%E8%AE%BEA/">
-                            <span class="chip bg-color">小说人设A</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/995a.html">
-                        <div class="card-image">
-                            
-                            <img src="/medias/loading.gif" data-original="https://s2.loli.net/2022/01/25/IgUceM2slFpW4zm.jpg" class="responsive-img" alt="年少の热烈">
-                            
-                            <span class="card-title">年少の热烈</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                喜欢什么就去做年少の时候我们才不管什么后果呢
-青春如此热烈每一秒的浪费都是可耻的
-既然认定了一件事就一直做哪怕分分秒秒的来反正好不容易可以为自己大胆一次
-就是要为非作歹胡作非为怎么热烈！怎么来！
-
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-15
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    随笔
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                            <span class="chip bg-color">随笔</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            <div class="article tag-post col s12 m6 l4" data-tags="小说人设A" data-aos="fade-up">
                 <div class="card">
                     <a href="/posts/8f49.html">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/medias/loading.gif" data-original="https://xinzhuobu.com/wp-content/uploads/2022/07/20220710004.jpg" class="responsive-img" alt="diary2">
                             
                             <span class="card-title">diary2</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                向往的生活在这些我所创造的人物中，每一个都寄托了我的灵魂利用这些虚拟的形象，我终于可以开口，诉说我内心全部的阴暗或光明那些搬不上台面的恶之花，在这里汹涌的盛开，汇聚成荆棘的囚笼，成为我赎罪的海洋内心的欲望实在是过于强烈此刻就像是一条恶狗恨不
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2022-07-14
@@ -889,436 +732,18 @@
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
                                 <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
-                                    小说
+                                小说
                                 </a>
                                 
                                 
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%B0%8F%E8%AF%B4%E4%BA%BA%E8%AE%BEA/">
-                            <span class="chip bg-color">小说人设A</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/dada.html">
-                        <div class="card-image">
-                            
-                            <img src="/medias/loading.gif" data-original="https://s1.ax1x.com/2022/03/14/bXAeKA.jpg" class="responsive-img" alt="物联网相关0.1">
-                            
-                            <span class="card-title">物联网相关0.1</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                物联网，元宇宙，VR
-最近有个vr游戏非常火就是vrchat里面有很多好玩的声优怪物还有奇葩的中文梗博物馆各种非遗整活哈哈哈甚至有vr场景复原的中国好声音节目之名场面————波澜哥 乐死我了
-不禁感叹技术的更新真的日新月异而且毫无疑问vr毕
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-07
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E6%9D%82%E6%96%87/" class="post-category">
-                                    计算机科普杂文
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E7%89%A9%E8%81%94%E7%BD%91/">
-                            <span class="chip bg-color">物联网</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/">
-                            <span class="chip bg-color">元宇宙</span>
-                        </a>
-                        
-                        <a href="/tags/VR/">
-                            <span class="chip bg-color">VR</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/239.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/loading.gif" data-original="/medias/featureimages/18.jpg" class="responsive-img" alt="健康小知识">
-                            
-                            <span class="card-title">健康小知识</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                不管是敲代码的还是考研学习的要是“姿势”不对看似放松的状态，其实却在损害我们的健康
-起因是我坐了一下午后肩膀感到无比酸痛
-还有每次学习工作完不要第一时间玩手机放松先看看远处或者最好户外活动10分钟，放松眼睛活动身体非常有好处
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-06
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%81%A5%E5%BA%B7/" class="post-category">
-                                    健康
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%81%A5%E5%BA%B7/">
-                            <span class="chip bg-color">健康</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/e0b8.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/loading.gif" data-original="/medias/featureimages/22.jpg" class="responsive-img" alt="计算机科普杂文">
-                            
-                            <span class="card-title">计算机科普杂文</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                其实这篇文章本来是用来吐槽烦心的糟糕事的，但是过程中发现了太多好玩的事情和文章所以我把那些无趣的东西都注释在md文件里然后慌不择路的赶紧记录了下来
-这些文章都很有意思可以激发大家学习的兴趣让你真正感受到计算机的魅力而不是那该死的厚厚的一本书
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-06
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E6%9D%82%E6%96%87/" class="post-category">
-                                    计算机科普杂文
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E6%9D%82%E6%96%87/">
-                            <span class="chip bg-color">计算机科普杂文</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/966b.html">
-                        <div class="card-image">
-                            
-                            <img src="/medias/loading.gif" data-original="https://xinzhuobu.com/wp-content/uploads/2022/06/20220617004.jpg" class="responsive-img" alt="迄今为止的美食日记">
-                            
-                            <span class="card-title">迄今为止的美食日记</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                登封
-
-向阳羊肉馆烩面
-高记烧饼
-第一刀削面
-怀玉堂的辣包子
-
-郑州
-
-三厂烩面
-高中校外的老碗面
-初中门口的煎饼果子
-初中门口的招牌麻辣面
-初中门口的手抓饼，生煎包（肉的）
-
-大学学海（一些感觉比较还ok的美食）
-
-小碗菜
-无骨烤鱼
-番茄
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-06
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E7%BE%8E%E9%A3%9F%E5%88%86%E4%BA%AB/" class="post-category">
-                                    美食分享
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8D%88%E9%A4%90%E6%97%B6%E9%97%B4/">
-                            <span class="chip bg-color">午餐时间</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/4f88.html">
-                        <div class="card-image">
-                            
-                            <img src="/medias/loading.gif" data-original="https://xinzhuobu.com/wp-content/uploads/2022/06/20220628002.png" class="responsive-img" alt="迷途日记1.0">
-                            
-                            <span class="card-title">迷途日记1.0</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                开心点，我的朋友！既然全世界都像是一坨狗屎那你也没办法更糟了是非对错，我们向来看的很重但是你我都清楚过分的清醒更像是一种自我的苛责我想每个人的真理都会有所不同我们当然永远在路上直到找到正确的答案不过现在我亲爱的先让我们吃饱饭好嘛然后美美的睡
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-04
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%93%B2%E6%80%9D/" class="post-category">
-                                    哲思
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%93%B2%E6%80%9D/">
-                            <span class="chip bg-color">哲思</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/129c.html">
-                        <div class="card-image">
-                            
-                            <img src="/medias/loading.gif" data-original="https://w.wallhaven.cc/full/m9/wallhaven-m9poxm.jpg" class="responsive-img" alt="夏日の雨">
-                            
-                            <span class="card-title">夏日の雨</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                昨天下了整夜的雨，睡到自然醒。
-梦里的回忆，模糊到那个不知在做什么的某一个夏天，像是还在高中的校园里，全神贯注的刷着理综卷子，窗外滚滚的雷声和暴雨;像是还在那个校园的大理石阶梯的拐角，石头剪刀布，输了到雨里跑一遭，很幸运可以遇到愿意陪我愚蠢
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-03
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    随笔
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                            <span class="chip bg-color">随笔</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/8e09.html">
-                        <div class="card-image">
-                            
-                            <img src="/medias/loading.gif" data-original="https://images3.alphacoders.com/115/thumb-1920-1151376.png" class="responsive-img" alt="diary1">
-                            
-                            <span class="card-title">diary1</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                 Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using He
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-02
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E6%97%A5%E8%AE%B0/">
-                            <span class="chip bg-color">日记</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/b00d.html">
-                        <div class="card-image">
-                            
-                            <img src="/medias/loading.gif" data-original="https://xinzhuobu.com/wp-content/uploads/2022/06/20220608005.png" class="responsive-img" alt="你好世界">
-                            
-                            <span class="card-title">你好世界</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                第一篇博文本文主要介绍博文的基本写作方法，也就是markdown的基本语法
-文章Front-matter介绍    ---
-    title: 第一篇文章    #文章标题
-    date: 2022-07-02 18:23:25   
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-02
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Markdown/" class="post-category">
-                                    Markdown
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Markdown/">
-                            <span class="chip bg-color">Markdown</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
             
         </div>
     </article>
-
 </main>
 
 
