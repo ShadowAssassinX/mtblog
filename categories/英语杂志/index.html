@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="diary3, HTML,CSS,JavaScript,JQuery,React,Vue.js等">
+    <meta name="keywords" content="分类: 英语杂志, HTML,CSS,JavaScript,JQuery,React,Vue.js等">
     <meta name="description" content="个人博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>diary3 | JiuHaohao&#39;s Blog</title>
+    <title>分类: 英语杂志 | JiuHaohao&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -517,767 +517,202 @@
 
 </header>
 
-    
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                Simple Love
+                
+            </div>
 
-
-
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://xinzhuobu.com/wp-content/uploads/2022/03/20220326001.jpg')">
-    <div class="container" style="right: 0px;left: 0px;">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="brand">
-                    <h1 class="description center-align post-title">diary3</h1>
-                </div>
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
             </div>
         </div>
     </div>
 </div>
 
 
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
 
 
-<main class="post-container content">
+    </div>
+</div>
+
+<main class="content">
 
     
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
-<style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
-    }
 
-    #articleContent :focus {
-        outline: none;
-    }
-
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
-    }
-
-    .toc-widget {
-        width: 345px;
-        padding-left: 20px;
-    }
-
-    .toc-widget .toc-title {
-        padding: 35px 0 15px 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content {
-        padding-bottom: 30px;
-        overflow: auto;
-    }
-
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-
-        position: absolute;
-        right: 23.5vw;
-        display: block;
-    }
-
-    #toc-content .is-active-link {
-        color: #42b983;
-    }
-
-    #floating-toc-btn {
-        position: fixed;
-        right: 15px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
-    }
-
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
-    }
-
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
-    }
-</style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
-<div id="artDetail">
+<div id="category-cloud" class="container chip-container">
     <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E5%B0%8F%E8%AF%B4%E4%BA%BA%E8%AE%BEA/">
-                                <span class="chip bg-color">小说人设A</span>
-                            </a>
-                        
-                    </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
-                                小说
-                            </a>
-                        
-                    </div>
-                    
-                </div>
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
             </div>
-
-            <div class="post-info">
+            <div class="tag-chips">
                 
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-07-16
-                </div>
                 
-
                 
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-07-18
-                </div>
+                <a href="/categories/%E6%97%A5%E8%AE%B0/" title="日记: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F9EBEA;">日记
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
                 
-
                 
-                <div class="info-break-policy">
-                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    602
-                </div>
+                <a href="/categories/%E9%9A%8F%E7%AC%94/" title="随笔: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">随笔
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
                 
-
                 
-
+                <a href="/categories/Markdown/" title="Markdown: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">Markdown
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%93%B2%E6%80%9D/" title="哲思: 5">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">哲思
+                        <span class="tag-length">5</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%81%A5%E5%BA%B7/" title="健康: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #FEF9E7;">健康
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E6%9D%82%E6%96%87/" title="计算机科普杂文: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F8F9F9;">计算机科普杂文
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E7%BE%8E%E9%A3%9F%E5%88%86%E4%BA%AB/" title="美食分享: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #82E0AA;">美食分享
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%B0%8F%E8%AF%B4/" title="小说: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D7BDE2;">小说
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E8%8B%B1%E8%AF%AD%E6%9D%82%E5%BF%97/" title="英语杂志: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #A3E4D7;">英语杂志
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
                 
             </div>
         </div>
-        <hr class="clearfix">
-
-        
-
-        
-
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                <h3 id="山海欲"><a href="#山海欲" class="headerlink" title="山海欲"></a>山海欲</h3><p>20岁<br>从来没有像这段时间一样<br>心头的欲望犹如翻江倒海一般沸腾着<br>我根本无法管控<br>没有任何道德和信仰可以约束<br>它在心头放肆的灼烧着<br>仿佛想要马上烧干我的每一寸热血<br>我露出了獠牙面容狰狞<br>像极了一头失控的野兽</p>
-<h3 id="然而"><a href="#然而" class="headerlink" title="然而"></a>然而</h3><p>我越是渴望<br>越是迫切<br>我就越是做不好任何一件事</p>
-<p>我清晰的明白这些<br>我那该死的被冲昏的头脑<br>根本无法清晰的去处理任何问题</p>
-<p>因此我又是能够如此清晰的感受到<br>这些都害我离想要的更加遥远<br>甚至逐渐摧毁我曾付出过的一切</p>
-<p>我痛恨这些<br>我又如此渴望</p>
-<p>可是倘若我自己无法处理好这些情绪和欲望<br>我一定会成为欲望的奴隶<br>付出一切代价并且最终一无所获</p>
-<h3 id="因此"><a href="#因此" class="headerlink" title="因此"></a>因此</h3><p>去寻找一种可以探索和前进的机制<br>尽管困难<br>但是在丛林法则的加持下<br>我们蜿蜒生长<br>终会有所成就<br>并且在人生的时时刻刻<br>都会处于一种精神和肉体以及物质上的充实和饱满<br>欲望绝对不可以成为一个人的全部<br>否则就会成为行尸走肉的牢奴<br>它应当被人作为主体所掌控<br>在适合的地方合适的时机<br>给予正确的反馈和及时的动力补充</p>
-<p>所以你当然可以选择<br>直视全部的欲望<br>只是<br>你必须明白<br>如果不做出努力并想出改变的方法<br>得不到的<br>你永远都得不到</p>
-<p>所以我想你一定知道<br>正确的方式应该是怎样的</p>
-<p>20岁<br>山海一般的欲望<br>不见得是一件坏事<br>它让你明白有些目标是如此的迫切<br>所以你必须全力以赴的同时<br>用最聪明的手段实现自己的全部目的</p>
-<p><img src="/medias/loading.gif" data-original="https://xinzhuobu.com/wp-content/uploads/2022/04/20220401002.jpg"></p>
-<h3 id="但是"><a href="#但是" class="headerlink" title="但是"></a>但是</h3><p>考虑到自制能力有限<br>所以必须还是尽量的远离那些<br>你只要自己心里知道<br>是有这么一件或者无数的好玩的东西在等着你就行<br>此刻你必须全力冲刺<br>想办法实现<br>所以除此以外尽量避免分心</p>
-<!--
-（本来想写摆烂人设的）
-嗯~
-结果发现
-真的就是单纯的什么都不想做了而已
-虽然...好玩的确实有很多
-
-确实真的好想可以瞬间财务自由
-然后想干嘛干嘛
-摆烂一辈子也好
-一想到也有很多咳咳
-也会有同样的想法
-我就更想这样
-
-当然那个时候一定得好好注意人身安全
-不然很危险
-最好装穷
-呵！连这种地方都想到了
-
-不过
-该怎么投机倒把呢？
-
-说实话
-我现在已经不想再学习任何东西了
-只想快点捞一笔钱钱
-
-
-尽管你说要找到一件可以做一辈子的事
-那我就是想环游世界吃喝玩乐啊
-也可以是一辈子啊
-反正生命的长度就这么多
-我为什么非要被迫去工作啊
-
-快去打造各种人设然后往外销售自己
-说不定会遇见更多的机会
-
-所以我不管了
-先把博客卖出去
-然后自己学摄影PS吧
-
-虽然github上还有好多
-开源的好玩项目
-但是暂时无所谓了
-
-然后开启博客
-利用信息差疯狂捞钱
-没错就是这样
-
-这样我们开始计划一下如何最大收益
-放长线钓大鱼也可以
-比如一个专栏-计算机科普杂文
-我就可以单独找一个人专门负责这个
-让他每周更新一篇
-然后就可以收到最高100元的奖励
-最好是所有人都可以投稿
-当然我只会录取内容好的
-甚至可能时间久一点之后偷偷换一换语言换上去
-然后虚假外传有多少人成功得奖
-当然如果真有那种每一篇文章质量都很高的
-那当然要真的奖励形成长期合作关系
-
-我对整个系列杂志采取收费1元1个季度的标准
-或者商量它6毛我4毛，
-（哎嘿!典中典，你不干想干的人多了去了，有的是人争着干）
-
-【最狗的就是那种直接偷我博文然后卖给别人的，要小心防范，这种狗确实才是真正的信息差龟孙，虽然我也经常这么干】
-
-收费的话就是1元1篇？不好！如果我是消费者，那么我能接受的范围就是1元一个月的使用权限，期间该专栏的全部文章都可以看
-
-然后我会在所有专栏找到最热销的一篇文章，集中在一起，形成一本全新的杂志，这样又可以卖钱。还可以宣传其他的杂志！！
-
-
-这样我就有了1元x3000~30000,最高上万月的月收入，除去100元的成本简直nice!
-
-再加上插件教学，一个清华社一个慕课堂的又是千把块（但是这个就很危险）
-
-还有很多其他尚未开发的项目
-不一定靠我一个人
-比如如果对方像我一样打算自己开启一个校园MV计划
-我就可以合作，在我的平台上去分享，然后召集更多人一起做，一起挣钱
-
-或者好的项目我都自己来
-
-难的是功能要强大，
-就是短期内别人不可能把我的全部内容都照搬走
-而且用户数据一定要稳定并且通过好的内容去维持住
-
-所以上线之前先测试然后在发送
-
-（小平台二手的优势就是可以在一定范围内，邻居之间售卖，而且有保障不被骗，毕竟可以找到人）
-
-
-可恶网文配图是侵权的！！！注意啊！！一旦商用是要注意侵权的，那可就完蛋了
-
-为了避免可以采取会员转移的方法-->
-
-                
-            </div>
-            <hr/>
-
-            
-
-    <div class="reprint" id="reprint-statement">
-        
-            <div class="reprint__author">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-user">
-                        文章作者:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">JiuHaohao</a>
-                </span>
-            </div>
-            <div class="reprint__type">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-link">
-                        文章链接:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    <a href="https://shadowassassinx.github.io/posts/4f88.html">https://shadowassassinx.github.io/posts/4f88.html</a>
-                </span>
-            </div>
-            <div class="reprint__notice">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-copyright">
-                        版权声明:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    本博客所有文章除特別声明外，均采用
-                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
-                    许可协议。转载请注明来源
-                    <a href="/about" target="_blank">JiuHaohao</a>
-                    !
-                </span>
-            </div>
-        
     </div>
-
-    <script async defer>
-      document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
-        M.toast({html: toastHTML})
-      });
-
-      function navToReprintStatement() {
-        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
-      }
-    </script>
+</div>
 
 
+    
 
-            <div class="tag_share" style="display: block;">
-                <div class="post-meta__tag-list" style="display: inline-block;">
-                    
-                        <div class="article-tag">
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/b262.html">
+                        <div class="card-image tag-image">
                             
-                                <a href="/tags/%E5%B0%8F%E8%AF%B4%E4%BA%BA%E8%AE%BEA/">
-                                    <span class="chip bg-color">小说人设A</span>
-                                </a>
+                            <img src="/medias/loading.gif" data-original="https://xinzhuobu.com/wp-content/uploads/2022/05/20220525002.jpg" class="responsive-img" alt="英语杂志0-1">
+                            
+                            <span class="card-title">英语杂志0-1</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                比如国外高分电影解读与介绍或者读后感，注意不要剧透太多，我不喜欢你可以参考一些杂志的电影解读仿照着写一篇对吧直接超一些开头的句子当融合怪也可以
+
                             
                         </div>
-                    
-                </div>
-                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-<div id="article-share">
-
-    
-    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="/libs/share/js/social-share.min.js"></script>
-    
-
-    
-
-</div>
-
-                </div>
-            </div>
-            
-                <style>
-    #reward {
-        margin: 40px 0;
-        text-align: center;
-    }
-
-    #reward .reward-link {
-        font-size: 1.4rem;
-        line-height: 38px;
-    }
-
-    #reward .btn-floating:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    #rewardModal {
-        width: 320px;
-        height: 350px;
-    }
-
-    #rewardModal .reward-title {
-        margin: 15px auto;
-        padding-bottom: 5px;
-    }
-
-    #rewardModal .modal-content {
-        padding: 10px;
-    }
-
-    #rewardModal .close {
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 1.3rem;
-        line-height: 20px;
-        cursor: pointer;
-    }
-
-    #rewardModal .close:hover {
-        color: #ef5350;
-        transform: scale(1.3);
-        -moz-transform:scale(1.3);
-        -webkit-transform:scale(1.3);
-        -o-transform:scale(1.3);
-    }
-
-    #rewardModal .reward-tabs {
-        margin: 0 auto;
-        width: 210px;
-    }
-
-    .reward-tabs .tabs {
-        height: 38px;
-        margin: 10px auto;
-        padding-left: 0;
-    }
-
-    .reward-content ul {
-        padding-left: 0 !important;
-    }
-
-    .reward-tabs .tabs .tab {
-        height: 38px;
-        line-height: 38px;
-    }
-
-    .reward-tabs .tab a {
-        color: #fff;
-        background-color: #ccc;
-    }
-
-    .reward-tabs .tab a:hover {
-        background-color: #ccc;
-        color: #fff;
-    }
-
-    .reward-tabs .wechat-tab .active {
-        color: #fff !important;
-        background-color: #22AB38 !important;
-    }
-
-    .reward-tabs .alipay-tab .active {
-        color: #fff !important;
-        background-color: #019FE8 !important;
-    }
-
-    .reward-tabs .reward-img {
-        width: 210px;
-        height: 210px;
-    }
-</style>
-
-<div id="reward">
-    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
-
-    <!-- Modal Structure -->
-    <div id="rewardModal" class="modal">
-        <div class="modal-content">
-            <a class="close modal-close"><i class="fas fa-times"></i></a>
-            <h4 class="reward-title">你的赏识是我前进的动力</h4>
-            <div class="reward-content">
-                <div class="reward-tabs">
-                    <ul class="tabs row">
-                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
-                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
-                    </ul>
-                    <div id="alipay">
-                        <img src="/medias/loading.gif" data-original="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
-                    </div>
-                    <div id="wechat">
-                        <img src="/medias/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    $(function () {
-        $('.tabs').tabs();
-    });
-</script>
-
-            
-        </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-    <div class="livere-card card" data-aos="fade-up">
-    <!-- 来必力City版安装代码 -->
-    <div id="lv-container" class="card-content" data-id="city" data-uid="MTAyMC81NjU2Mi8zMzAyNQ==">
-        <script type="text/javascript">
-            (function (d, s) {
-                let j, e = d.getElementsByTagName(s)[0];
-                if (typeof LivereTower === 'function') {
-                    return;
-                }
-
-                j = d.createElement(s);
-                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-                j.async = true;
-
-                e.parentNode.insertBefore(j, e);
-            })(document, 'script');
-        </script>
-        <noscript>为正常使用来必力评论功能请激活JavaScript。</noscript>
-    </div>
-    <!-- City版安装代码已完成 -->
-</div>
-    
-
-    
-
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
-            <div class="card">
-                <a href="/posts/864e.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/loading.gif" data-original="/medias/featureimages/0.jpg" class="responsive-img" alt="烦恼の心事">
-                        
-                        <span class="card-title">烦恼の心事</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-07-20
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E6%97%A5%E8%AE%B0/">
-                        <span class="chip bg-color">日记</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/posts/995a.html">
-                    <div class="card-image">
-                        
-                        <img src="/medias/loading.gif" data-original="https://s2.loli.net/2022/01/25/IgUceM2slFpW4zm.jpg" class="responsive-img" alt="年少の热烈">
-                        
-                        <span class="card-title">年少の热烈</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
+                        <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-15
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-05
                             </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    随笔
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E8%8B%B1%E8%AF%AD%E6%9D%82%E5%BF%97/" class="post-category">
+                                    英语杂志
                                 </a>
-                            
-                            
-                        </span>
+                                
+                                
+                            </span>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
+
                     
-                    <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                        <span class="chip bg-color">随笔</span>
-                    </a>
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%BD%B1%E8%AF%84%E7%BB%BF%E7%9A%AE%E4%B9%A6/">
+                            <span class="chip bg-color">影评绿皮书</span>
+                        </a>
+                        
+                    </div>
                     
                 </div>
-                
             </div>
+            
         </div>
-        
-    </div>
-</article>
-
-</div>
-
-
-
-<!-- 代码块功能依赖 -->
-<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
-
-<!-- 代码语言 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-
-
-<!-- 代码块复制 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
-
-
-<!-- 代码块收缩 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
-
-
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget card" style="background-color: white;">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
-
-
-<script src="/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
-</script>
-
-    
-
+    </article>
 </main>
 
 
